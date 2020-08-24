@@ -1,0 +1,12 @@
+#circle-color {
+    --circle-color: deepskyblue;
+
+    background-image: paint(circle);
+    font-family: sans-serif;
+    font-size: 36px;
+    transition: --circle-color 1s;
+}
+
+#circle-color:focus {
+    --circle-color: purple;
+}

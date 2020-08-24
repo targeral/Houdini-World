@@ -1,0 +1,9 @@
+.split-line {
+    height: 20px;
+    --extra-underlineNumber: 10; /* default: 3 */
+    --extra-underlineColor: #8266ff; /* default: black */
+    --extra-underlineSpread: 15; /* default: 20 */
+    --extra-underlineWidth: 2px; /* default: 2 */
+
+    background: paint(super-underline);
+}

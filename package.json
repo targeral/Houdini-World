@@ -1,0 +1,20 @@
+{
+  "name": "houdini-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targeral/Houdini-World.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/targeral/Houdini-World/issues"
+  },
+  "homepage": "https://github.com/targeral/Houdini-World#readme"
+}
