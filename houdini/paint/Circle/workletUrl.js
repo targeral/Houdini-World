@@ -1,4 +1,4 @@
-import { createHoudiniUrl } from '../../HD/index.js';
+import { createHoudiniUrl } from '../../../HD/index.js';
 
 export default createHoudiniUrl(
 `

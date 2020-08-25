@@ -1,4 +1,4 @@
-import { getProps } from '../../HD/index.js';
+import { getProps } from '../../../HD/index.js';
 
 const getRandom = (min, max) => {
     return Math.floor(Math.random() * (max - min + 1)) + min;

@@ -1,6 +1,6 @@
-import { addProps, loadPaintModule } from '../../HD/index.js';
+import { addProps, loadPaintModule } from '../../../HD/index.js';
 
-export default () => {
+export default async () => {
     addProps([
         {
             name: '--extra-underlineNumber',
@@ -28,5 +28,5 @@ export default () => {
         },
     ]);
 
-    loadPaintModule('./houdini/SuperUnderline/super-underline.js');
+    await loadPaintModule('./houdini/paint/SuperUnderline/super-underline.js');
 }

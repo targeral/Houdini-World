@@ -1,0 +1,26 @@
+.border-colors-example {
+    max-width: 100px;
+    --border-top-width: 10;
+    --border-right-width: 20;
+    --border-bottom-width: 30;
+    --border-left-width: 40;
+    --border-top-color: red aquamarine;
+    --border-right-color: lightskyblue green lightskyblue green;
+    --border-bottom-color: deepskyblue cyan lightgoldenrodyellow;
+    --border-left-color: gold orange red pink;
+}
+
+.multi-border {
+    border: solid 0;
+    border-image: paint(border-colors);
+    border-image-slice:
+        var(--border-top-width)
+        var(--border-right-width)
+        var(--border-bottom-width)
+        var(--border-left-width);
+    border-width:
+        calc(var(--border-top-width) * 1px)
+        calc(var(--border-right-width) * 1px)
+        calc(var(--border-bottom-width) * 1px)
+        calc(var(--border-left-width) * 1px);
+}

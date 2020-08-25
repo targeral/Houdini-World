@@ -1,4 +1,4 @@
-import {addProp, loadPaintModule} from '../../HD/index.js';
+import {addProp, loadPaintModule} from '../../../HD/index.js';
 import url from './workletUrl.js';
 
 export default async () => {
