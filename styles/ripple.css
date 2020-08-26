@@ -1,0 +1,15 @@
+.ripple-painter {
+  animation: ripple 1s linear infinite;
+  background: paint(ripple-painter);
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+}
+@keyframes ripple {
+  0% {
+    --ripple: 0;
+  }
+  100% {
+    --ripple: 1;
+  }
+}
