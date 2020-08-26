@@ -1,0 +1,25 @@
+.ring-painter {
+  animation: 
+    comet-head 1.2s cubic-bezier(0.5, 0, 0.5, 1) -0.45s infinite,
+    comet-tail 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  background: paint(ring-painter);
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+}
+@keyframes comet-head {
+  0% {
+    --comet-head-degrees: -45;
+  }
+  100% {
+    --comet-head-degrees: 315;
+  }
+}
+@keyframes comet-tail {
+  0% {
+    --comet-tail-degrees: -135;
+  }
+  100% {
+    --comet-tail-degrees: 225;
+  }
+}
